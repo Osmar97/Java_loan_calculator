@@ -48,6 +48,6 @@ public class LoanCalculator {
     }
 
     private  static void displaypayback(double monthlyPayment , int numberOfPayments){
-        System.out.println("Prestação Mensal: " + NumberFormat.getCurrencyInstance().format(monthlyPayment * numberOfPayments));
+        System.out.println("Payback: " + NumberFormat.getCurrencyInstance().format(monthlyPayment * numberOfPayments));
     }
 }
